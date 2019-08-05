@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+#Assign interface var to the first argument 
+interface=$1
+
+if [ ! $# -gt 1  ] ; then 
+    echo -e "\033[92m[+]\033[0m Usage: sudo  $(basename $0) <interface>"
+    exit 1
+fi 
+echo -e "\033[92m[+]\033[0m Enabling Monitor mode        \c  "
+
+#Enable monitor mode using airmon-ng 
+sudo airmon-ng start $1 2>&1 > /dev/null
+
+echo -e "          \033[93m[*]\033[0m Enabled"
+echo -e "\033[92m[+]\033[0m Now Killing unwanted services          \c  "
+
+#Kill services that may disrupt monitor mode 
+sudo airmon-ng check kill 2>&1 > /dev/null
+echo -e "\033[93m[*]\033[0m Killed"
+echo -e "\033[94m[!]\033[0m Monitor mode Enabled !!"
+

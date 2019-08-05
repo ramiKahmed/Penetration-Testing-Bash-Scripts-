@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Assign interface var to the first argument 
+interface=$1 
+
+if [ ! $# -eq 1 ]; then 
+    echo -e "\033[92m[+]\033[0m Usage: sudo $(basename $0) <interface>" 
+    exit 1
+fi
+
+echo -e "\033[92m[+]\033[0m Disabling monitor mode    \c"
+
+#Disable monitor mode using airmon-ng 
+sudo airmon-ng stop $1 2>&1 > /dev/null
+
+echo -e "     \033[93m[*]\033[0m Disabled"
+echo -e "\033[92m[+]\033[0m Restarting Network Services    \c"
+
+#Restart NetworkManager services 
+sudo service NetworkManager restart 2>&1 > /dev/null 
+
+echo -e "\033[93m[*]\033[0m Restarted "
+echo -e "\033[94m[!]\033[0m Managed mode Now enabled"
+
