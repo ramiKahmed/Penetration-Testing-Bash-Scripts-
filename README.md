@@ -1,4 +1,5 @@
-This repository was created to share bash scripts that may help and penetration tester with his/her day to day projects and tests :
+This repository was created to share bash scripts that may help penetration tester and security person with his/her day to day projects and tests :
+
 Currently added scripts :
 
 [+] monitor # Automatically enable monitor mode by providing only the target interface 
