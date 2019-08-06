@@ -2,6 +2,6 @@
 
 #Currently added scripts :
 
-**monitor** # Automatically enable monitor mode by providing only the target interface 
+**1. monitor** # *Automatically enable monitor mode by providing only the target interface*
 
-**dmonitor** # Automatically disable monitor mode and return back to managed mode by providing only the target interface
+**2. dmonitor** # *Automatically disable monitor mode and return back to managed mode by providing only the target interface*
