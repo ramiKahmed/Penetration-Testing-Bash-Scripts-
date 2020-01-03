@@ -91,7 +91,6 @@ _StartMetasploit()
 }
 
 _banner
-#_Input
 _CreateResourceFile 
 echo -e "$GREEN[+]$NC configurations created successfully ==> /tmp/resource.rc"
 _CheckPostgresql
