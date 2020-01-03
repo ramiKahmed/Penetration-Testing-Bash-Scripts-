@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/ramiKahmed/Penetration-Testing-Bash-Scripts-/blob/master/BASH.png)
 
-**This repository was created to share bash scripts ( which I find useful :) )  that may help  pentesters with their projects**
+**This repository was created to share bash scripts ( which I find useful :) )  that may help pentesters with automating simple and yet time consuming tasks **
 
 Feel free to add , modify any of the scripts mentioned here  ;) 
 
