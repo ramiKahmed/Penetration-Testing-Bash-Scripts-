@@ -27,7 +27,7 @@ For any suggestions, I would be be more than grateful to contact me either by em
 
     Usage : MSFHostsCSVParser.sh <file.csv>
 
-**5. MSFShodanTargetsToTXTFile** ==> *accept shodan_api_key along with a query and a workspace name , and once done it will provide you with 3 files : 
+**5. MSFShodanTargetsToTXTFile** ==> *Accepts shodan_api_key along with a query and a workspace name , and once done it will provide you with 3 files : 
 1 - a CSV file with hosts found from shodan along with information and services. 
 2 - a TXT file containing hosts per line for further scanning using nmap and such. 
 3 - a CSV file containing a database export from metasploit in case of further exploitation using MSF*
