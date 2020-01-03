@@ -6,7 +6,7 @@
 
 Feel free to add , modify any of the scripts mentioned here  ;) 
 
-for any suggestions, I would be be more than grateful to contact me either by email or through my  personal facebook page : 
+For any suggestions, I would be be more than grateful to contact me either by email or through my  personal facebook page.
 
 **EMAIL** : ramikhaledahmed@gmail.com 
 **Facebook** : https://www.facebook.com/RamiKhaledAhmedd 
@@ -15,8 +15,8 @@ for any suggestions, I would be be more than grateful to contact me either by em
 ## Available Scripts :
 
 
-**1. monitor** # *Automatically enable monitor mode by providing only the target interface*
+**1. monitor**  ==> *Automatically enable monitor mode by providing only the target interface*
 
-**2. dmonitor** # *Automatically disable monitor mode and return back to managed mode by providing only the target interface*
+**2. dmonitor** ==>  *Automatically disable monitor mode and return back to managed mode by providing only the target interface*
 
-**3. ShodanQuery
+**3. ShodanQuery** ==> 
