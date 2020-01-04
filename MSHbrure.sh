@@ -27,7 +27,7 @@ _inputValidation()
 {
 		if test $args -lt 6 ;
 		then
-			if test $var == '-h' ; 
+			if [[ $var == -h ]] ; 
 			then 
 				echo
 				echo -e "$GREEN Usage $NC: <API> <QUERY> <Workspace> <usernames> <passwords> <service>"
